@@ -1,0 +1,55 @@
+.extintos{
+    padding: 20px;
+    display: flex;
+}
+.col-extintos{
+    width: auto;
+    height: auto;
+    padding: 5px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.cont-extintos{
+    width: 100%;
+    height: 350px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.cont-extintos figure{
+    width: 100%;
+    height: 350px;
+  
+}
+.cont-extintos figure img{
+    width: 100%;
+    height: 100%;
+}
+.cont-extintos:hover{
+    width: 400px;
+    height: 550px;
+    margin-bottom: 50px;
+    overflow: visible;
+
+}
+.cont-extintos figure figcaption{
+    width: 100%;
+    height: auto;
+    padding: 4px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 25px;
+    background-color: darkblue;
+}
+.cont-extintos figure figcaption a{
+    display: block;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    margin-left: 70%;
+    background-color: aquamarine;
+    border:  0.5 solid silver;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+
+}
